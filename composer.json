@@ -1,0 +1,31 @@
+{
+  "name": "dominikbulaj/shares-counter-php",
+  "description": "Simple PHP solution for getting number of URL shares on most popular social networks.",
+  "keywords": [
+    "shares",
+    "count"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/dominikbulaj/shares-counter-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dominik Bułaj",
+      "homepage": "https://github.com/dominikbulaj"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "3.7.*"
+  },
+  "autoload": {
+    "psr-4": {"SharesCounter\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": { "SharesCounter\\Tests\\": "tests/" }
+  }
+}
