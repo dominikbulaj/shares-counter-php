@@ -3,9 +3,6 @@
 namespace SharesCounter\Tests;
 use SharesCounter\Networks;
 
-include '../src/Networks.php';
-include '../src/Exception.php';
-
 /**
  *
  * @author Dominik Bułaj <dominik@bulaj.com>
