@@ -3,7 +3,7 @@ Shares Counter
 
 Simple PHP solution for getting number of URL shares on most popular social networks.
 
-[![Build Status](https://travis-ci.org/dominikbulaj/shares-counter.svg?branch=master)](https://travis-ci.org/dominikbulaj/shares-counter)
+[![Build Status](https://travis-ci.org/dominikbulaj/shares-counter-php.svg?branch=master)](https://travis-ci.org/dominikbulaj/shares-counter-php)
 
 Requirements
 ------------
