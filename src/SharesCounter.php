@@ -82,7 +82,7 @@ class SharesCounter
             $error = curl_error($curl);
 
             if ($errno === 0) {
-                $shares[$_network] = $_config['parse']($data);
+                $shares[$_network] = intval($_config['parse']($data));
             } else {
                 $shares[$_network] = "Error (#{$errno}): {$error}";
             }

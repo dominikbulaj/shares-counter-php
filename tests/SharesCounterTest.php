@@ -48,6 +48,11 @@ class SharesCounterTest extends \PHPUnit_Framework_TestCase
         $this->assertInternalType('array', $counts);
         $this->assertNotEmpty($counts);
         $this->assertEquals(6, count($counts)); // 6 is available by default
+        foreach($counts as $network => $shares) {
+            if (is_numeric($shares)) { // shares count must be int; script returns string with error description if occurs
+                $this->assertInternalType('integer', $shares);
+            }
+        }
 
         // counter value must be integer type
         $this->assertInternalType('integer', reset($counts));
