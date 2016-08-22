@@ -47,7 +47,7 @@ final class Networks
                 'enabled' => self::NETWORK_ENABLED,
                 'parse' => function($response) {
                     $resObj = json_decode($response);
-                    return @$resObj->shares->share_count ? @$resObj->shares->share_count ?: 0 : 0;
+                    return @$resObj->share->share_count ?: 0;
                 },
             ],
             self::NETWORK_TWITTER       => [

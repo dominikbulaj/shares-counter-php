@@ -3,9 +3,9 @@
  * Examples of ShareCouners usage
  * @author Dominik Bułaj <dominik@bulaj.com>
  */
-include '..\src\SharesCounter.php';
-include '..\src\Networks.php';
-include '..\src\Exception.php';
+include '../src/SharesCounter.php';
+include '../src/Networks.php';
+include '../src/Exception.php';
 
 $url = 'http://www.huffingtonpost.com';
 
